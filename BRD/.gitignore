@@ -1,0 +1,4 @@
+.venv/
+BRD/.env
+.env.example
+__pycache__

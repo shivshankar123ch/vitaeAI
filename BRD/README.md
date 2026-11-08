@@ -46,8 +46,10 @@ uses implicit SSL; other configured ports use STARTTLS. Set
 to five). OTPs have six digits and a five-attempt limit, and are rate-limited
 per email address. Only hashed email addresses and OTPs are stored for each
 challenge. Successful verification sets an HttpOnly verification cookie for 12 hours.
-`CORS_ORIGINS` must include the frontend origin; use `OTP_COOKIE_SECURE=true`
-when serving over HTTPS. The frontend API base URL can be set with
+`CORS_ORIGINS` defaults to the frontend and backend Render origins shown above;
+set the same comma-separated value in the Render backend environment if
+`CORS_ORIGINS` is already configured there. Use `OTP_COOKIE_SECURE=true` when
+serving over HTTPS. The frontend API base URL can be set with
 `REACT_APP_API_BASE_URL`; for local development it defaults to
 `http://localhost:8000`.
 

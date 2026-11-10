@@ -58,7 +58,7 @@ class Settings:
         origin.strip()
         for origin in os.getenv(
             "CORS_ORIGINS",
-            "https://vitaeai-1.onrender.com,https://vitaeai-tkbp.onrender.com",
+            "http://localhost:3000,http://127.0.0.1:3000",
         ).split(",")
         if origin.strip()
     ]

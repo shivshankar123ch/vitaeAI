@@ -100,13 +100,13 @@ function JobAndCompanyRegistration() {
 
       // Submit company data
       const companyResponse = await axios.post(
-        "https://vitaeai-tkbp.onrender.com/company/ Company & Recruiter Management/",
+        "https://vitae-9hvk.onrender.com/company/ Company & Recruiter Management/",
         companyData
       );
 
       // Submit job data
       const jobResponse = await axios.post(
-        "https://vitaeai-tkbp.onrender.com/jobs/",
+        "https://vitae-9hvk.onrender.com/jobs/",
         jobData
       );
 

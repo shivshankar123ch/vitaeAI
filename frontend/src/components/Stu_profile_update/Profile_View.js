@@ -78,7 +78,7 @@
 //       data.append("experiences", JSON.stringify(experiences));
 
 //       const response = await axios.post(
-//         "https://vitaeai-tkbp.onrender.com/students/students",
+//         "https://vitae-9hvk.onrender.com/students/students",
 //         data,
 //         { headers: { "Content-Type": "multipart/form-data" } }
 //       );
@@ -110,7 +110,7 @@
 //       }
 
 //       const res = await axios.get(
-//         `https://vitaeai-tkbp.onrender.com/students/students/${id}`
+//         `https://vitae-9hvk.onrender.com/students/students/${id}`
 //       );
 
 //       setSavedProfile(res.data);

@@ -33,7 +33,7 @@ useEffect(() => {
   const fetchCompanyCount = async () => {
     try {
       const response = await axios.get(
-        "https://vitaeai-tkbp.onrender.com/company/ Company & Recruiter Management/"
+        "https://vitae-9hvk.onrender.com/company/ Company & Recruiter Management/"
       );
 
       setCompanyCount(response.data.length);
@@ -51,7 +51,7 @@ useEffect(() => {
 const fetchCompanies = async () => {
   try {
     const response = await axios.get(
-      "https://vitaeai-tkbp.onrender.com/company/ Company & Recruiter Management/"
+      "https://vitae-9hvk.onrender.com/company/ Company & Recruiter Management/"
     );
 
     setCompanies(response.data);
@@ -76,7 +76,7 @@ const handleApply = async (company) => {
     }
 
     const response = await axios.post(
-      "https://vitaeai-tkbp.onrender.com/jobs/Posting/apply",
+      "https://vitae-9hvk.onrender.com/jobs/Posting/apply",
       null,
       {
         params: {

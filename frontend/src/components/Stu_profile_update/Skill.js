@@ -20,7 +20,7 @@ export default function SkillName() {
     try {
 
       const response = await axios.post(
-        "https://vitaeai-tkbp.onrender.com/students/Profile/skills",
+        "https://vitae-9hvk.onrender.com/students/Profile/skills",
         {
           skill_name: skillData.skill_name,
         }

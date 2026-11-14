@@ -248,15 +248,15 @@ export default function LinkPage() {
                 Get started <ChevronDown size={15} aria-hidden="true" />
               </button>
               <div className="pp-nav__dropdown-menu">
-                <Link to="/register" onClick={closeMenu}>I’m a job seeker</Link>
+                <Link to="/job-seekers" onClick={closeMenu}>I’m a job seeker</Link>
                 <Link to="/r_register" onClick={closeMenu}>I’m a recruiter</Link>
                 <Link to="/login" onClick={closeMenu}>Placement team sign in</Link>
               </div>
             </div>
             <div className="pp-nav__actions">
-              <Link className="pp-button pp-button--quiet" to="/login" onClick={closeMenu}>Log in</Link>
-              <Link className="pp-button pp-button--small" to="/register" onClick={closeMenu}>
-                Get started <ArrowUpRight size={16} aria-hidden="true" />
+              <Link className="pp-button pp-button--quiet" to="/job-seekers" onClick={closeMenu}>Looking for a job?</Link>
+              <Link className="pp-button pp-button--small" to="/r_login" onClick={closeMenu}>
+                Recruiter login <ArrowUpRight size={16} aria-hidden="true" />
               </Link>
             </div>
           </nav>
@@ -280,7 +280,7 @@ export default function LinkPage() {
               your career from campus to what’s next.
             </p>
             <div className="pp-hero__actions">
-              <Link className="pp-button pp-button--primary" to="/register">
+              <Link className="pp-button pp-button--primary" to="/job-seekers">
                 Explore opportunities <ArrowRight size={17} aria-hidden="true" />
               </Link>
               <Link className="pp-button pp-button--outline" to="/r_login">

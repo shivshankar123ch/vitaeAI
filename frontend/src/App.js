@@ -21,6 +21,7 @@ import Missing from './components/Missing';
 import Unauthorized from './components/Unauthorized';
 import Lounge from './components/Lounge';
 import LinkPage from './components/LinkPage';
+import JobSeekerLanding from './components/JobSeekerLanding';
 import RequireAuth from './components/RequireAuth';
 import { Routes, Route } from 'react-router-dom';
 import Inbox from './JobInbox/Inbox';
@@ -46,6 +47,7 @@ function App() {
         
         {/* public routes */}
         {/* <Route path="linkpage" element={<LinkPage />} /> */}
+        <Route path="job-seekers" element={<JobSeekerLanding />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
 
